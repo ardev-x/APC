@@ -6,6 +6,26 @@ APC is an Arbitrary Precision Calculator implemented in C, designed to perform a
 
 🚧 This project is currently under development.
 
+## Implemented Features
+
+### ✅ Command-line Argument Validation
+
+The program validates user input before performing any arithmetic operation by checking:
+
+- Correct number of command-line arguments
+- Supported arithmetic operator
+- Valid integer operands
+- Appropriate error messages for invalid input
+
+## Current Progress
+
+- ✅ Initial project structure
+- ✅ Command-line argument validation
+- ⏳ Addition
+- ⏳ Subtraction
+- ⏳ Multiplication
+- ⏳ Division
+
 ## Features
 
 - Perform arithmetic operations on arbitrarily large integers
@@ -15,7 +35,7 @@ APC is an Arbitrary Precision Calculator implemented in C, designed to perform a
 
 ## Project Structure
 
-```
+```text
 APC/
 ├── README.md
 ├── apc.h
